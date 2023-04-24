@@ -1,0 +1,42 @@
+.slideshow__list--img {
+    width: 100%;
+}
+
+.header__content--list_item > .hd1 {
+    color: #E29481;
+    font-weight: 700;
+}
+
+.girl{
+    margin: 0 100px;
+    margin-top: 20px;
+}
+
+.content1 {
+    display: flex;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.content__content {
+    padding: 0 15px;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.content__content--img {
+    width: 100%;
+    height: auto;
+}
+
+.content__content--header {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 10px 0;
+}
+
+.content__content--content {
+    line-height: 20px;
+    font-style: italic;
+}

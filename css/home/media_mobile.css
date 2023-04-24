@@ -1,0 +1,289 @@
+@media only screen and (max-width: 1280px) {
+    .header__content--list {
+        padding: 0 36px;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .header__content--list {
+        display: none;
+    }
+
+    /* .space__header {
+      height: 100px;
+    } */
+  }
+
+
+  /* Mobile */
+@media only screen and (Max-width : 850px ){
+.hotline {
+  height: 70px;
+  width: 100%;
+  padding: 5px 40px;
+  border-bottom: 1px solid f1f1f1;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+    
+.hotline__content {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.space__header{
+  height:56px ;
+  width: 100%;
+}
+.header {
+  height: 56px;
+  display: flex;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  width: 100%;
+  top: 64px;
+  /* display: none; */
+  }
+
+.header__logo--link{
+    height: 36px;
+}
+
+.header__tools--search {
+  display: none;
+}
+
+.producttop {
+  height: 1450px;
+  width: 100%;
+  margin:0;
+}
+
+.producttop__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.producttop__list--item {
+  padding: 7.5px 7.5px;
+  display: flex;
+  margin: auto;
+}
+
+.product__list--item_img1 {
+  width: 100%;
+  height: 435px;
+  padding-bottom: 28px;
+  text-align: center;
+}
+
+.product__list--item_img2 {
+  width: 100%;
+  height: 495px;
+}
+
+.productnew1 {
+  height: 429px;
+  width: 100%;
+}
+
+.productnew1__content {
+  height: 309px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15px 0 0;
+  position: relative;
+  width: 100%;
+}
+
+.sp1 {
+  display: none;
+  position: absolute;
+}
+
+.productnew1__content--img {
+  width: 165px;
+  height: 248px;
+}
+
+.productnew1__heading {
+  margin: 30px 0;
+}
+
+.productnew1__content--ct_top {
+  font-size: 14px;
+  text-align: center;
+}
+
+.productnew1__content::after {
+  top: 84px;
+  left: 15px;
+}
+
+.productnew1__content::before{
+  top: 84px;
+  right: 15px;
+}
+
+.content1 {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px 10px 15px;
+}
+
+.content1__left--img {
+  height: 225px;
+  width: 100%;
+}
+
+.content1__right {
+  flex: 1;
+  padding: 0;
+  position: relative;
+}
+
+.content1__right--content {
+  height: 350px;
+  width: 100%;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.content1__right--heading::after {
+  top: 16px;
+  left: 112px;
+}
+
+.content1__right--btn {
+  padding: 13px 45px;
+  margin-top: 10px;
+  display: flex;
+  margin: auto;
+}
+
+.productnew2 {
+  height: 800px;
+  padding: 0;
+  margin: 0;
+}
+
+.productnew2__content{
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.productnew2__content--img {
+  height: 250px;
+  width: 165px;
+}
+
+.productnew2__content--sp {
+  width: 165px;
+}
+
+.productnew2__content--ct {
+  text-align: center;
+}
+
+.homebanner {
+  background: none;
+  padding: 0;
+  padding-bottom: 150px;
+  margin-bottom: 20px;
+}
+
+.homebanner__img {
+  display: block;
+  height: 189px;
+  width: 100%;
+}
+
+.newsheading {
+  height: 100px;
+}
+
+.news__left--content::before, .news__right--content::before {
+  display: none;
+}
+
+.news{
+  flex-direction: column;
+  height: 1450px;
+  padding: 0 15px;
+}
+
+.news__c {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  /* margin: auto; */
+}
+
+.news__img--c {
+  width: 284px;
+  height: 426px;
+  display: flex;
+  margin: auto;
+}
+
+.news__left--content, .news__right--content { 
+  position: static;
+  display: flex;
+  margin: auto;
+}
+
+.news__content--c {
+  width: 284px;
+  padding: 10px ;
+}
+
+.shops {
+  padding: 30px 0;
+}
+
+.footer__header {
+  padding: 30px 15px;
+}
+
+.footer__l {
+  display: none;
+}
+
+.footer__header {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+.footer__h{
+  font-size: 14px;
+}
+
+.footer__dk--header {
+  font-size: 14px;
+}
+
+.footer__header--dk_p { 
+  padding:  15px 15px;
+}
+
+.footer__adr {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__adr--left_h {
+  text-align: center;
+}
+
+.footer__adr--left_n {
+  text-align: center;
+}
+
+}
